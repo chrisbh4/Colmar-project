@@ -1,0 +1,50 @@
+
+nav{
+    display: flex;
+}
+
+nav p{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav h1{
+    font-weight: lighter;
+}
+
+nav .h1-gray{
+    color: gray;
+    
+}
+
+
+nav span{
+    padding-right: 16px;
+}
+
+.class{
+    border: 2px solid black;
+}
+
+footer{
+    border-top: 2px solid black;
+}
+
+.first-layer{
+    border: 2px solid red;
+
+}
+
+.second-layer{
+    border: 2px solid blue;
+}
+
+.third-layer{
+    border: 2px solid green;
+}
+
+.fourth-layer {
+    border: 2px solid rebeccapurple;
+}
