@@ -54,6 +54,20 @@ nav span{
     color: white;
 }
 
+.first-layer p{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.first-layer h1{
+    font-size: 70px;
+    text-align: center;
+}
+/*End of First Layer */
+
+
+
+
 .class{
     border: 2px solid black;
 }
@@ -63,14 +77,34 @@ nav span{
 /*Second Layer */
 .second-layer{
     border: 2px solid blue;
+    display: flex;
+    width: 100%;
+    
 }
+.second-layer .box-1{
+
+
+}
+.second-layer .box-1 img{
+    width: 100%;
+}
+
+.second-layer .box-2{
+    width: 100%
+}
+
+.event{
+    border: 2px solid red;
+}
+/*End of Second Layer */
+
 
 
 /* Third Layer */
 .third-layer{
     border: 2px solid green;
 }
-
+/*End of Third Layer */
 
 
 /*Fourth Layer */
@@ -80,7 +114,7 @@ nav span{
 .fourth-layer {
     border: 2px solid rebeccapurple;
 }
-
+/*End Of Fourth Layer */
 
 /* Footer */
 
