@@ -1,5 +1,4 @@
 
-
 /*Header */
 nav{
     display: flex;
@@ -95,6 +94,13 @@ nav span{
 
 .event{
     border: 2px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.event-text{
+    width: 100%;
+    text-align: center;
 }
 /*End of Second Layer */
 
@@ -103,7 +109,30 @@ nav span{
 /* Third Layer */
 .third-layer{
     border: 2px solid green;
+    background-color: lightgray;
 }
+
+.third-layer h1{
+    text-align: center;
+
+}
+.courses{
+    display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+}
+.class{
+    height: 300px;
+    width: 420px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.class img{
+    height: 150px;
+    width: 100%;
+}
+
 /*End of Third Layer */
 
 
