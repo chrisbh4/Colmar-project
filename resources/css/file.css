@@ -1,4 +1,9 @@
 
+html{
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid red;
+    
+}
 /*Header */
 nav{
     display: flex;
@@ -13,6 +18,7 @@ nav p{
 
 nav h1{
     font-weight: lighter;
+    
 }
 
 nav .h1-gray{
@@ -33,6 +39,22 @@ nav span{
     background-color: lightgray;
 
 }
+.first-layer p{
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(73, 73, 72, 0.726);
+}
+
+.first-layer h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    color: rgba(73, 73, 72, 0.726);
+}
+
+.banner-pt1{
+    width: 60%;
+}
 .banner-pt1 img{
     width: 100%;
     margin: 32px 24px;
@@ -46,6 +68,10 @@ nav span{
     width: 50%;
     
 }
+.banner-pt2 h1{
+    font-weight: 400;
+}
+
 
 .banner-pt2 button{
     width: 350px;
@@ -53,17 +79,10 @@ nav span{
     background-color: rgb(44, 40, 40);
     color: white;
     font-size: 18px;
+    paddiing: 8px 8px;
 }
 
-.first-layer p{
-    font-weight: 400;
-    font-size: 40px;
-}
 
-.first-layer h1{
-    font-size: 70px;
-    text-align: center;
-}
 /*End of First Layer */
 
 
@@ -75,6 +94,8 @@ nav span{
 
 
 
+
+
 /*Second Layer */
 .second-layer{
     
@@ -83,28 +104,57 @@ nav span{
     
 }
 .second-layer .box-1{
+width: 60%;
+padding: 32px 24px;
 
 
 }
 .second-layer .box-1 img{
     width: 100%;
-    margin: 32px 24px;
+   
+}
+.box-1 h1{
+    padding-top: 32px;
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.box-1 p{
+    font-size: 20px;
 }
 
 .second-layer .box-2{
-    width: 100%
+    width: 40%;
+}
+
+.event-text h1{
+    font-weight: 400;
 }
 
 .event{
-    
+    border: 1px solid gainsboro;
     display: flex;
     align-items: center;
 }
 
 .event-text{
     width: 100%;
-    text-align: center;
+    
 }
+.read-me{
+    color: rgb(40, 40, 236);
+}
+
+.event img{
+    width: 35%;
+    padding: 16px;
+}
+
+.guest-lecture{
+    background-color: gainsboro;
+}
+
 /*End of Second Layer */
 
 
@@ -113,22 +163,28 @@ nav span{
 .third-layer{
     
     background-color: lightgray;
+    padding-top: 32px;
 }
 
 .third-layer h1{
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 35px;
 
 }
 .courses{
     display: flex;
  flex-flow: row wrap;
- justify-content: space-around;
+ justify-content: center;
 }
 .class{
-    height: 300px;
-    width: 420px;
+    height: 330px;
+    width: 330px;
     margin-bottom: 32px;
     background-color: white;
+    flex-wrap: wrap;
+    margin: 16px;
 }
 
 .class img{
@@ -136,20 +192,41 @@ nav span{
     width: 100%;
 }
 
+.class .bold{
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    margin-top: 16px;
+
+}
+.class p{
+    margin-left: 16px;
+    
+    color: rgb(110, 108, 108);
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
 /*End of Third Layer */
 
 
 /*Fourth Layer */
 
 
-
+.fourth-layer{
+    margin: 32px 0px 32px 24px ;
+}
 
 .thesis{
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .fourth-layer .box-1{
-    width: 65%;
+    width: 60%;
 }
 
 .fourth-layer video{
@@ -162,6 +239,12 @@ nav span{
 
 .fourth-layer .box-2{
     margin-left: 24px;
+    width: 40%;
+
+}
+.box-1 h4{
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
 .box-2 .info-box1{
@@ -174,15 +257,20 @@ nav span{
 }
 
 .box-2 .info img{
-    padding-left: 16px;
-    width: 30%;
-    height: 50%;
+    padding: 16px;
+    width: 35%;
+    height: 200px;
 
 }
 
 .fourth-layer .context{
-    text-align: center;
+    text-align: left;
     width: 100%;
+}
+
+.context h3{
+    font-weight: 400;
+    font-size: 30px;
 }
 /*End Of Fourth Layer */
 
@@ -190,5 +278,25 @@ nav span{
 
 
 footer{
-    
+    margin-top: 16px;
+    margin-left: 24px;
+    display: flex;
+
+}
+
+.copyright{
+    width: 100%;
+}
+.legal{
+    width: 100%;
+    display: flex;
+   justify-content: flex-end;
+}
+
+.term{
+    padding-right: 10px;
+}
+
+.privacy{
+    padding-right: 3px;
 }
